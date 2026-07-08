@@ -1,0 +1,41 @@
+text,positive,negative
+"J'adore ce nouveau produit, il dépasse toutes mes attentes !",1,0
+"Service client incroyable, ils ont résolu mon problème en 5 minutes.",1,0
+"Cette mise à jour est vraiment un désastre, plus rien ne fonctionne.",0,1
+"Je suis tellement déçu par la qualité de livraison, colis abîmé.",0,1
+"Super expérience aujourd'hui, merci à toute l'équipe pour leur réactivité.",1,0
+"Toujours aucune réponse après 3 jours, c'est inadmissible.",0,1
+"L'application plante à chaque ouverture depuis la dernière mise à jour.",0,1
+"Franchement une belle surprise, le rapport qualité prix est excellent.",1,0
+"On m'a livré le mauvais article, deuxième fois que ça arrive.",0,1
+"Merci pour ce nouveau design, beaucoup plus intuitif qu'avant.",1,0
+"Le support technique m'a bien aidé, problème réglé rapidement.",1,0
+"C'est la pire expérience client que j'ai eue cette année.",0,1
+"Rien à dire, tout s'est déroulé comme prévu aujourd'hui.",0,0
+"J'ai reçu ma commande ce matin, rien de spécial à signaler.",0,0
+"Encore un bug après la mise à jour, ça devient fatiguant.",0,1
+"Vraiment ravi de mon achat, je recommande à 100%.",1,0
+"Le prix a encore augmenté sans aucune justification, scandaleux.",0,1
+"Interface claire et agréable à utiliser, bravo à l'équipe design.",1,0
+"J'attends toujours le remboursement promis il y a deux semaines.",0,1
+"La commande est arrivée en avance, agréable surprise.",1,0
+"Aucun problème particulier avec le produit, il fonctionne normalement.",0,0
+"Le service après-vente est injoignable, j'ai essayé plusieurs fois.",0,1
+"Très satisfait de la nouvelle fonctionnalité, exactement ce qu'il me fallait.",1,0
+"Ce genre d'erreur ne devrait plus arriver en 2026, c'est inacceptable.",0,1
+"Rien de particulier à dire, produit conforme à la description.",0,0
+"Une équipe à l'écoute et un produit qui tient ses promesses.",1,0
+"Toujours le même problème de connexion depuis des semaines.",0,1
+"Livraison rapide et emballage soigné, je suis agréablement surpris.",1,0
+"Le montant débité ne correspond pas à ma commande, à corriger d'urgence.",0,1
+"Journée normale, rien à signaler concernant le produit.",0,0
+"Excellent rapport qualité prix, je vais recommander ce produit à mes proches.",1,0
+"Encore annulé à la dernière minute, ça commence à bien faire.",0,1
+"Le nouveau logo est plutôt réussi, plus moderne qu'avant.",1,0
+"J'ai contacté le support trois fois sans obtenir de réponse claire.",0,1
+"Rien à redire, tout est conforme à ce qui était annoncé.",0,0
+"Une mise à jour utile qui corrige enfin les anciens bugs.",1,0
+"Toujours des problèmes de facturation, ça devient vraiment lassant.",0,1
+"Franchement agréablement surpris par la rapidité du traitement.",1,0
+"Le produit reçu ne correspond pas du tout à la photo.",0,1
+"Rien à ajouter, la commande s'est bien passée cette fois.",0,0
