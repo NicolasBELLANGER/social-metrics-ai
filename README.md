@@ -67,9 +67,39 @@ curl -X POST http://localhost:5001/analyze \
 
 ```json
 {
-  "J'adore ce produit !": 0.4521,
-  "Service catastrophique, très déçu.": -0.3812
+  "J'adore ce produit !": 0.9192,
+  "Service catastrophique, très déçu.": -0.8869
 }
+```
+
+### Tester avec `test.json`
+
+Un fichier d'exemple est fourni à la racine du projet :
+
+```bash
+curl -X POST http://localhost:5001/analyze \
+  -H "Content-Type: application/json" \
+  -d @test.json
+```
+
+Contenu de `test.json` (positif, négatif, neutre) :
+
+```json
+[
+  "J'adore ce produit !",
+  "Service catastrophique, très déçu.",
+  "Excellent produit, je recommande !",
+  "C'est un désastre total.",
+  "Rien de particulier à signaler."
+]
+```
+
+Réponse formatée :
+
+```bash
+curl -s -X POST http://localhost:5001/analyze \
+  -H "Content-Type: application/json" \
+  -d @test.json | python3 -m json.tool
 ```
 
 ### Endpoint `GET /health`
@@ -100,7 +130,8 @@ curl http://localhost:5001/health
 │   ├── connection.py       # Connexion MySQL
 │   └── seed.py             # Import CSV → MySQL
 ├── data/
-│   └── tweet-dataset.csv   # Dataset annoté (40 tweets)
+│   └── tweet-dataset.csv   # Dataset annoté (44 tweets)
+├── test.json               # Exemple de requête pour POST /analyze
 ├── models/                 # Modèles entraînés (.joblib)
 ├── reports/                # Matrices de confusion + métriques (rapport PDF à rédiger)
 ├── scripts/
