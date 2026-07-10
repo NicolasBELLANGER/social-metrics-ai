@@ -16,7 +16,6 @@ build/
 .env.local
 
 # Modèles ML (régénérables, souvent lourds)
-model/*.joblib
 models/*.joblib
 
 # Logs

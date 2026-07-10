@@ -1,0 +1,2 @@
+# Réentraînement hebdomadaire : tous les lundis à 3h00
+0 3 * * 1 root cd /app && /usr/local/bin/python /app/train.py >> /var/log/retrain.log 2>&1

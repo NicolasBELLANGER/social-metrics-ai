@@ -39,3 +39,7 @@ text,positive,negative
 "Franchement agréablement surpris par la rapidité du traitement.",1,0
 "Le produit reçu ne correspond pas du tout à la photo.",0,1
 "Rien à ajouter, la commande s'est bien passée cette fois.",0,0
+"Service catastrophique, très déçu.",0,1
+"Excellent produit, je recommande !",1,0
+"C'est un désastre total.",0,1
+"J'adore ce produit !",1,0

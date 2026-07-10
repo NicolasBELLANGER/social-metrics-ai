@@ -34,7 +34,26 @@ services:
       DB_PASSWORD: sentiment-api-pass
       DB_NAME: sentiment-api-db
     volumes:
-      - ./model:/app/model
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./reports:/app/reports
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.scheduler
+    container_name: sentiment-scheduler
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_USER: sentiment-api-user
+      DB_PASSWORD: sentiment-api-pass
+      DB_NAME: sentiment-api-db
+    volumes:
+      - ./models:/app/models
       - ./data:/app/data
       - ./reports:/app/reports
 
